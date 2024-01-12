@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fire-optics-website/static/css/main.94adf88d.css",
-    "main.js": "/fire-optics-website/static/js/main.f1976ee8.js",
+    "main.js": "/fire-optics-website/static/js/main.c49fc84b.js",
     "static/js/787.d4aba7ab.chunk.js": "/fire-optics-website/static/js/787.d4aba7ab.chunk.js",
     "index.html": "/fire-optics-website/index.html",
     "main.94adf88d.css.map": "/fire-optics-website/static/css/main.94adf88d.css.map",
-    "main.f1976ee8.js.map": "/fire-optics-website/static/js/main.f1976ee8.js.map",
+    "main.c49fc84b.js.map": "/fire-optics-website/static/js/main.c49fc84b.js.map",
     "787.d4aba7ab.chunk.js.map": "/fire-optics-website/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94adf88d.css",
-    "static/js/main.f1976ee8.js"
+    "static/js/main.c49fc84b.js"
   ]
 }
