@@ -11,6 +11,7 @@ import Footer from "../Footer";
 const Landing = () => {
   document.title = "Fire Optics";
   return (
+
     <Wrapper>
       <Header />
       <Content>

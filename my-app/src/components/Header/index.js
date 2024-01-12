@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Wrapper, Content, Content1 } from "./header.style";
+import { Wrapper, Content } from "./header.style";
 import { Link } from "react-router-dom";
 
 import SideNav from "../SideNav";

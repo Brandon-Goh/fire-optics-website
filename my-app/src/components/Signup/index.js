@@ -21,10 +21,6 @@ const Signup = () => {
   const signUp = (e) => {
     e.preventDefault();
 
-    {
-      !fname && alert("Please Enter Your Name!");
-    }
-
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCreds) => {
         updateProfile(userCreds.user, {
