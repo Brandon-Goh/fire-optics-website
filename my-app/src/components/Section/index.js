@@ -1,0 +1,80 @@
+import React from "react";
+import { Wrapper, ContentTop, ContentMid, Content } from "./section.style";
+function Section({
+  title,
+  desc,
+  backgroundImg,
+  link,
+  leftbtn,
+  rightbtn,
+  arrow,
+  battery,
+  compute,
+  fov,
+  refresh,
+  distance,
+  top,
+}) {
+  console.log(backgroundImg)
+
+  return (
+    <Wrapper bg={backgroundImg}>
+      <ContentTop>
+        <h1>{title}</h1>
+        <p>
+          {desc} <a href="#">{link}</a>
+        </p>
+      </ContentTop>
+
+      <div>
+        <ContentMid className={arrow ? "" : "buttons"}>
+          {leftbtn && (
+            <div className="left">
+              <button>{leftbtn}</button>
+            </div>
+          )}
+          {rightbtn && (
+            <div className="right">
+              <button>{rightbtn}</button>
+            </div>
+          )}
+        </ContentMid>
+
+        <Content>
+          <div className="Info-bar">
+            <div className="Specs">
+              <h2>{battery} hr</h2>
+              <p>Battery Life</p>
+            </div>
+            <div className="Specs">
+              <h2>{compute} ms</h2>
+              <p>Model Computing Time</p>
+            </div>
+            <div className="Specs">
+              <h2>{fov}</h2>
+              <p>Field of View</p>
+            </div>
+            <div className="Specs">
+              <h2>{refresh} Hz</h2>
+              <p>Refresh Rate</p>
+            </div>
+            <div className="Specs">
+              <h2>{distance} m</h2>
+              <p>Detection Distance</p>
+            </div>
+            <div className="order_btn">
+              <button> ORDER NOW </button>
+            </div>
+          </div>
+        </Content>
+        {arrow && (
+          <div className="arrow">
+            <img src={process.env.PUBLIC_URL+"/images/down-arrow.svg"} alt="arrow" />
+          </div>
+        )}
+      </div>
+    </Wrapper>
+  );
+}
+
+export default Section;
