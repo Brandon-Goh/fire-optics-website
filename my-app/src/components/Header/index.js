@@ -13,19 +13,28 @@ const Header = () => {
       <Wrapper>
         <div className="logo">
           <Link to="/">
-          
-            <img src={process.env.PUBLIC_URL+"/images/fire-optics.svg"} alt="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/images/fire-optics.svg"}
+              alt="logo"
+            />
           </Link>
         </div>
         <Content>
-          <Link to="/#">Specs</Link>
+          <a href="#goals">Goals</a>
+          <Link to="https://healthy-nephew-264.notion.site/Design-Log-28146004f6e8455387dc545bd8700806">
+            Design Log
+          </Link>
+          <Link to="https://healthy-nephew-264.notion.site/Timeline-6e9fde45ffba434ca89727e00fdc5eb7">
+            Timeline
+          </Link>
+          <Link to="https://healthy-nephew-264.notion.site/Fire-Optics-0e186c0df5ab48ef9558f62e24fc2a2e#e50fd2bdd4be4cd0836ffb829a9ac7b3">
+            Background
+          </Link>
+          <Link to="/https://healthy-nephew-264.notion.site/Fire-Optics-0e186c0df5ab48ef9558f62e24fc2a2e#e606b7ffaa2c4a80bf134ee094b20cfb">
+            Team
+          </Link>
           <Link to="/#">Contact Us</Link>
         </Content>
-        {/* <Content1>
-                <a href='#' className='none' >Shop</a>
-                <Link to='/login' className='none'>Account</Link>
-                <a href='#' onClick={()=> setOpen(true)} >Menu</a>
-            </Content1> */}
         {open && (
           <div className="top">
             <div className="close" onClick={() => setOpen(false)}>

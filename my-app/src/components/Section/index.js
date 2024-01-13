@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Wrapper, ContentTop, ContentMid, Content } from "./section.style";
 function Section({
   title,
@@ -61,7 +62,9 @@ function Section({
               <p>Detection Distance</p>
             </div>
             <div className="order_btn">
-              <button> SEE A DEMO </button>
+              <Link to="https://drive.google.com/file/d/1qJ83wWW0ZfZTDPlB8Ab3_tfXTnh405qI/view">
+                <button> SEE A DEMO </button>
+              </Link>
             </div>
           </div>
         </Content>

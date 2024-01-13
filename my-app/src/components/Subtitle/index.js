@@ -12,7 +12,9 @@ const Subtitle = () => {
   return (
     <Wrapper>
       <div className="title">
-        <h1 data-aos="fade-up">Goals</h1>
+        <h1 id="goals" data-aos="fade-up">
+          Goals
+        </h1>
       </div>
     </Wrapper>
   );
