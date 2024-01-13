@@ -4,20 +4,20 @@ import { Wrapper, Content } from "./models.style";
 
 import Section from "../Section";
 import Interior from "../Interior_Specs";
+import Subtitle from "../Subtitle";
 import Specs from "../Gen_Spec";
 import Header from "../Header";
 import Footer from "../Footer";
-// import myImage from '../../../public/images/landing-full.jpg';
+
 const Landing = () => {
   document.title = "Fire Optics";
   return (
-
     <Wrapper>
       <Header />
       <Content>
         <Section
           title="Fire Optics"
-          desc="A hands free, visual system to easily identify signs of life for firefighters."
+          desc="A hands free, visual system to easily identify signs of life for firefighters"
           backgroundImg="landing-full.jpg"
           arrow="true"
           battery="6"
@@ -28,10 +28,11 @@ const Landing = () => {
         />
       </Content>
       <Content>
-        <Interior />
+        <Subtitle />
+        <Specs />
       </Content>
       <Content>
-        <Specs />
+        <Interior />
       </Content>
       <Footer bottom="bottom" />
     </Wrapper>

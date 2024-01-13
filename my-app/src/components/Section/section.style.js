@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100vw;
   height: 100vh;
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +56,7 @@ export const ContentTop = styled.div`
   text-align: center;
   padding-top: 10vh;
   h1 {
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 3rem;
     color: var(--teslaColor);

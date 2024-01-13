@@ -15,8 +15,6 @@ function Section({
   distance,
   top,
 }) {
-  console.log(backgroundImg)
-
   return (
     <Wrapper bg={backgroundImg}>
       <ContentTop>
@@ -63,13 +61,16 @@ function Section({
               <p>Detection Distance</p>
             </div>
             <div className="order_btn">
-              <button> ORDER NOW </button>
+              <button> SEE A DEMO </button>
             </div>
           </div>
         </Content>
         {arrow && (
           <div className="arrow">
-            <img src={process.env.PUBLIC_URL+"/images/down-arrow.svg"} alt="arrow" />
+            <img
+              src={process.env.PUBLIC_URL + "/images/down-arrow.svg"}
+              alt="arrow"
+            />
           </div>
         )}
       </div>
