@@ -27,9 +27,7 @@ const Header = () => {
           <Link to="https://healthy-nephew-264.notion.site/Timeline-6e9fde45ffba434ca89727e00fdc5eb7">
             Timeline
           </Link>
-          <Link to="https://healthy-nephew-264.notion.site/Fire-Optics-0e186c0df5ab48ef9558f62e24fc2a2e#e50fd2bdd4be4cd0836ffb829a9ac7b3">
-            Background
-          </Link>
+          <a href="#background">Background</a>
           <Link to="/https://healthy-nephew-264.notion.site/Fire-Optics-0e186c0df5ab48ef9558f62e24fc2a2e#e606b7ffaa2c4a80bf134ee094b20cfb">
             Team
           </Link>
