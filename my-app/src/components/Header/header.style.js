@@ -94,7 +94,11 @@ export const Content = styled.div`
   }
 
   @media screen and (max-width: 1150px) {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: centered;
+    align-items: center;
+    justify-content: space-evenly;
   }
 `;
 
