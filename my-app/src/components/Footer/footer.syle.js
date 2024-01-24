@@ -14,9 +14,9 @@ export const Wrapper = styled.div`
       }
     }
   }
-  @media screen and (max-width: 420px) {
-    margin-top: -45px;
-  }
+  // @media screen and (max-width: 420px) {
+  //   margin-top: -45px;
+  // }
 `;
 
 export const Content = styled.div`
