@@ -78,6 +78,8 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-wrap: nowrap;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
 
   a {
     padding: 7px 16px;
@@ -87,9 +89,10 @@ export const Content = styled.div`
     font-weight: 500;
     border-radius: 10px;
     transition: background-color 200ms ease-in;
+
     cursor: pointer;
     :hover {
-      background-color: rgba(90, 90, 90, 0.1);
+      background-color: rgba(90, 90, 90, 0.4);
     }
   }
 
