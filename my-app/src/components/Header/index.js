@@ -11,14 +11,14 @@ const Header = () => {
   return (
     <>
       <Wrapper>
-        <div className="logo">
+        {/* <div className="logo">
           <Link to="/">
             <img
               src={process.env.PUBLIC_URL + "/images/fire-optics.svg"}
               alt="logo"
             />
           </Link>
-        </div>
+        </div> */}
         <Content>
           <a href="#goals">Goals</a>
           <Link to="https://healthy-nephew-264.notion.site/Design-Log-28146004f6e8455387dc545bd8700806">

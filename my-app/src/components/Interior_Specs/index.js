@@ -13,7 +13,9 @@ const Interior = () => {
     <>
       <Wrapper>
         <div className="title">
-          <h1 id="background">Background</h1>
+          <h1 id="background" data-aos="fade-up">
+            Background
+          </h1>
         </div>
       </Wrapper>
       <Wrapper2>

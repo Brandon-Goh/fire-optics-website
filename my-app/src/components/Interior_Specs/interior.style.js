@@ -32,6 +32,11 @@ export const Wrapper = styled.div`
       font-weight: 500;
       letter-spacing: 0.8px;
       font-size: 2rem;
+      @media (max-width: 768px) {
+        /* Adjust the max-width as needed for your mobile breakpoint */
+        font-size: 2rem; /* Adjust the font size for mobile devices */
+        margin-top: -330px;
+      }
     }
   }
 `;
