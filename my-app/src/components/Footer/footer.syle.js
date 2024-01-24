@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  margin-top: -35px;
-
+  height: 30vh;
+  background-color: black;
   .bottom {
     a {
       transition: color 200ms ease-in;

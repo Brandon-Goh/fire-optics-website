@@ -31,7 +31,7 @@ const Interior = () => {
               />
             </div>
             <div className="col text">
-              <h3 id="background"> Background </h3>
+              {/* <h3 id="background"> Background </h3> */}
               <p>
                 {" "}
                 As a group, we found ourselves deeply impacted by the news
