@@ -62,7 +62,10 @@ function Section({
               <p>Detection Distance</p>
             </div>
             <div className="order_btn">
-              <Link to="https://drive.google.com/file/d/1qJ83wWW0ZfZTDPlB8Ab3_tfXTnh405qI/view">
+              {/* <Link to="https://drive.google.com/file/d/1qJ83wWW0ZfZTDPlB8Ab3_tfXTnh405qI/view">
+                <button> SEE A DEMO </button>
+              </Link> */}
+              <Link to="/demo">
                 <button> SEE A DEMO </button>
               </Link>
             </div>
