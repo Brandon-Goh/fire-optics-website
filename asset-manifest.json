@@ -1,15 +1,43 @@
 {
   "files": {
     "main.css": "/fire-optics-website/static/css/main.94adf88d.css",
-    "main.js": "/fire-optics-website/static/js/main.7aa04017.js",
+    "main.js": "/fire-optics-website/static/js/main.c552494a.js",
+    "reactPlayerYouTube.js": "/fire-optics-website/static/js/reactPlayerYouTube.9b74a6b1.chunk.js",
+    "reactPlayerSoundCloud.js": "/fire-optics-website/static/js/reactPlayerSoundCloud.3ce812f4.chunk.js",
+    "reactPlayerVimeo.js": "/fire-optics-website/static/js/reactPlayerVimeo.aebae2af.chunk.js",
+    "reactPlayerMux.js": "/fire-optics-website/static/js/reactPlayerMux.f7e70a30.chunk.js",
+    "reactPlayerFacebook.js": "/fire-optics-website/static/js/reactPlayerFacebook.7e758ff4.chunk.js",
+    "reactPlayerStreamable.js": "/fire-optics-website/static/js/reactPlayerStreamable.404047ea.chunk.js",
+    "reactPlayerWistia.js": "/fire-optics-website/static/js/reactPlayerWistia.fca3131f.chunk.js",
+    "reactPlayerTwitch.js": "/fire-optics-website/static/js/reactPlayerTwitch.b3d61940.chunk.js",
+    "reactPlayerDailyMotion.js": "/fire-optics-website/static/js/reactPlayerDailyMotion.207e0bdc.chunk.js",
+    "reactPlayerMixcloud.js": "/fire-optics-website/static/js/reactPlayerMixcloud.cba82e9e.chunk.js",
+    "reactPlayerVidyard.js": "/fire-optics-website/static/js/reactPlayerVidyard.8b0e31d1.chunk.js",
+    "reactPlayerKaltura.js": "/fire-optics-website/static/js/reactPlayerKaltura.3f7c8fe9.chunk.js",
+    "reactPlayerFilePlayer.js": "/fire-optics-website/static/js/reactPlayerFilePlayer.c69c7eaf.chunk.js",
+    "reactPlayerPreview.js": "/fire-optics-website/static/js/reactPlayerPreview.c45a0f28.chunk.js",
     "static/js/787.d4aba7ab.chunk.js": "/fire-optics-website/static/js/787.d4aba7ab.chunk.js",
     "index.html": "/fire-optics-website/index.html",
     "main.94adf88d.css.map": "/fire-optics-website/static/css/main.94adf88d.css.map",
-    "main.7aa04017.js.map": "/fire-optics-website/static/js/main.7aa04017.js.map",
+    "main.c552494a.js.map": "/fire-optics-website/static/js/main.c552494a.js.map",
+    "reactPlayerYouTube.9b74a6b1.chunk.js.map": "/fire-optics-website/static/js/reactPlayerYouTube.9b74a6b1.chunk.js.map",
+    "reactPlayerSoundCloud.3ce812f4.chunk.js.map": "/fire-optics-website/static/js/reactPlayerSoundCloud.3ce812f4.chunk.js.map",
+    "reactPlayerVimeo.aebae2af.chunk.js.map": "/fire-optics-website/static/js/reactPlayerVimeo.aebae2af.chunk.js.map",
+    "reactPlayerMux.f7e70a30.chunk.js.map": "/fire-optics-website/static/js/reactPlayerMux.f7e70a30.chunk.js.map",
+    "reactPlayerFacebook.7e758ff4.chunk.js.map": "/fire-optics-website/static/js/reactPlayerFacebook.7e758ff4.chunk.js.map",
+    "reactPlayerStreamable.404047ea.chunk.js.map": "/fire-optics-website/static/js/reactPlayerStreamable.404047ea.chunk.js.map",
+    "reactPlayerWistia.fca3131f.chunk.js.map": "/fire-optics-website/static/js/reactPlayerWistia.fca3131f.chunk.js.map",
+    "reactPlayerTwitch.b3d61940.chunk.js.map": "/fire-optics-website/static/js/reactPlayerTwitch.b3d61940.chunk.js.map",
+    "reactPlayerDailyMotion.207e0bdc.chunk.js.map": "/fire-optics-website/static/js/reactPlayerDailyMotion.207e0bdc.chunk.js.map",
+    "reactPlayerMixcloud.cba82e9e.chunk.js.map": "/fire-optics-website/static/js/reactPlayerMixcloud.cba82e9e.chunk.js.map",
+    "reactPlayerVidyard.8b0e31d1.chunk.js.map": "/fire-optics-website/static/js/reactPlayerVidyard.8b0e31d1.chunk.js.map",
+    "reactPlayerKaltura.3f7c8fe9.chunk.js.map": "/fire-optics-website/static/js/reactPlayerKaltura.3f7c8fe9.chunk.js.map",
+    "reactPlayerFilePlayer.c69c7eaf.chunk.js.map": "/fire-optics-website/static/js/reactPlayerFilePlayer.c69c7eaf.chunk.js.map",
+    "reactPlayerPreview.c45a0f28.chunk.js.map": "/fire-optics-website/static/js/reactPlayerPreview.c45a0f28.chunk.js.map",
     "787.d4aba7ab.chunk.js.map": "/fire-optics-website/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94adf88d.css",
-    "static/js/main.7aa04017.js"
+    "static/js/main.c552494a.js"
   ]
 }
