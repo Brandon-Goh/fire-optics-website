@@ -2,28 +2,41 @@ import React from "react";
 import ReactPlayer from "react-player";
 import { Wrapper, Content, ContentTop } from "./models.style";
 
-const Video = () => {
-  let videosrc = "testvid.mp4";
+const Video = ({ title, position, videofile }) => {
+  let videosrc = videofile;
 
   return (
-    <div>
-      <ReactPlayer
-        width="50vw"
-        height="50vh"
-        // width="500px"
-        // height="400px"
-        url={videosrc}
-        controls={true}
-        // light is usefull incase of dark mode
-        light={false}
-        // picture in picture
-        pip={true}
-        playing={true}
-        loop={true}
-      />
-      <source src={videosrc} type="video/mp4" />
-      <h1 style={{ marginLeft: "14vw" }}>Thermal Camera Input</h1>
-    </div>
+    <>
+      <div>
+        <ReactPlayer
+          width="75vw"
+          height="75vh"
+          url={videosrc}
+          controls={true}
+          light={false}
+          pip={true}
+          playing={true}
+          loop={true}
+        />
+        <source src={videosrc} type="video/mp4" />
+        <h1 style={{ marginLeft: "25vw" }}>{title}</h1>
+        <div style={{ marginLeft: "77vw", marginTop: "-25vh" }}>
+          <ReactPlayer
+            width="21vw"
+            height="21vh"
+            url={videosrc}
+            controls={true}
+            light={false}
+            pip={true}
+            playing={true}
+            loop={true}
+          />
+          <source src={videosrc} type="video/mp4" />
+          <h1 style={{ marginLeft: "8vw" }}>HUD</h1>
+        </div>
+      </div>
+      <div>s</div>
+    </>
   );
 };
 

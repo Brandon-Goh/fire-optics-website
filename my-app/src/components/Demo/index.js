@@ -34,9 +34,13 @@ const Demo = () => {
           refresh="32"
           distance="250"
         /> */}
+        <Video
+          videofile="testvid.mp4"
+          position={{ horizontal: "center", vertical: "top" }}
+          title="Thermal Camera Input"
+        />
       </Content>
 
-      <Video />
       {/* <Content>
         <Subtitle />
         <Specs />
