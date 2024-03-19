@@ -5,6 +5,11 @@ import { Wrapper, Content, ContentTop } from "./models.style";
 const Video = ({ title, position, videofile }) => {
   let videosrc = videofile;
 
+  const hudStyle = {
+    color: "#FFA500", // Orange color in hex
+    marginLeft: "8vw",
+  };
+
   return (
     <>
       <div>
@@ -19,7 +24,7 @@ const Video = ({ title, position, videofile }) => {
           loop={true}
         />
         <source src={videosrc} type="video/mp4" />
-        <h1 style={{ marginLeft: "25vw" }}>{title}</h1>
+        <h1 style={{ marginLeft: "25vw", color: "#FFA500" }}>{title}</h1>
         <div style={{ marginLeft: "77vw", marginTop: "-25vh" }}>
           <ReactPlayer
             width="21vw"
@@ -32,10 +37,9 @@ const Video = ({ title, position, videofile }) => {
             loop={true}
           />
           <source src={videosrc} type="video/mp4" />
-          <h1 style={{ marginLeft: "8vw" }}>HUD</h1>
+          <h1 style={{ marginLeft: "8vw", color: "#FFA500" }}>HUD</h1>
         </div>
       </div>
-      <div>s</div>
     </>
   );
 };

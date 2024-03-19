@@ -59,12 +59,12 @@ export const ContentTop = styled.div`
     font-weight: 600;
     letter-spacing: 0.5px;
     font-size: 3rem;
-    color: var(--teslaColor);
+    color: black;
   }
   p {
     font-size: 1.5rem;
     padding: 5px;
-    color: rgba(59, 59, 59, 0.753);
+    color: black;
   }
   a {
     text-decoration: underline;
@@ -74,7 +74,7 @@ export const ContentTop = styled.div`
     transition: color 200ms ease-in;
 
     :hover {
-      color: var(--teslaColor);
+      color: black;
       text-decoration-thickness: 2px;
     }
   }
