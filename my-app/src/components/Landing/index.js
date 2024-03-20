@@ -20,7 +20,7 @@ const Landing = () => {
           desc="A hands free, visual system to easily identify signs of life for firefighters"
           backgroundImg="landing-full.jpg"
           arrow="true"
-          battery="3"
+          battery="5"
           compute="4.50"
           fov="55° x 35°"
           refresh="32"
