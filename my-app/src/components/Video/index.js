@@ -16,27 +16,27 @@ const Video = ({ title, position, videofile }) => {
         <ReactPlayer
           width="75vw"
           height="75vh"
-          url={videosrc}
+          url="BG2.mp4"
           controls={true}
           light={false}
           pip={true}
           playing={true}
           loop={true}
         />
-        <source src={videosrc} type="video/mp4" />
+        <source src="BG2.mp4" type="video/mp4" />
         <h1 style={{ marginLeft: "25vw", color: "#FFA500" }}>{title}</h1>
         <div style={{ marginLeft: "77vw", marginTop: "-25vh" }}>
           <ReactPlayer
             width="21vw"
             height="21vh"
-            url={videosrc}
+            url="BG3.mp4"
             controls={true}
             light={false}
             pip={true}
             playing={true}
             loop={true}
           />
-          <source src={videosrc} type="video/mp4" />
+          <source src="BG3.mp4" type="video/mp4" />
           <h1 style={{ marginLeft: "8vw", color: "#FFA500" }}>HUD</h1>
         </div>
       </div>

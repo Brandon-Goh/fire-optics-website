@@ -65,6 +65,7 @@ export const ContentTop = styled.div`
     font-size: 1.5rem;
     padding: 5px;
     color: black;
+    font-weight: 600;
   }
   a {
     text-decoration: underline;

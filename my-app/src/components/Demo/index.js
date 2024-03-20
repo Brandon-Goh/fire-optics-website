@@ -13,7 +13,7 @@ import Video from "../Video"; // Adjust the import path as per your folder struc
 const Demo = () => {
   document.title = "Fire Optics";
   return (
-    <Wrapper bg="demoo-full.png">
+    <Wrapper bg="demoo-full3.png">
       <Content>
         <ContentTop>
           <h1>Fire Optics</h1>
