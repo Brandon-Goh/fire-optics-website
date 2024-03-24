@@ -45,10 +45,10 @@ function Section({
               <h2>{battery} hr</h2>
               <p>Battery Life</p>
             </div>
-            <div className="Specs">
+            {/* <div className="Specs">
               <h2>{compute} ms</h2>
               <p>Model Computing Time</p>
-            </div>
+            </div> */}
             <div className="Specs">
               <h2>{fov}</h2>
               <p>Field of View</p>
