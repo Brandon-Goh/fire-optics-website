@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fire-optics-website/static/css/main.94adf88d.css",
-    "main.js": "/fire-optics-website/static/js/main.cdafb446.js",
+    "main.js": "/fire-optics-website/static/js/main.7fc4c70a.js",
     "reactPlayerYouTube.js": "/fire-optics-website/static/js/reactPlayerYouTube.9b74a6b1.chunk.js",
     "reactPlayerSoundCloud.js": "/fire-optics-website/static/js/reactPlayerSoundCloud.3ce812f4.chunk.js",
     "reactPlayerVimeo.js": "/fire-optics-website/static/js/reactPlayerVimeo.aebae2af.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/787.d4aba7ab.chunk.js": "/fire-optics-website/static/js/787.d4aba7ab.chunk.js",
     "index.html": "/fire-optics-website/index.html",
     "main.94adf88d.css.map": "/fire-optics-website/static/css/main.94adf88d.css.map",
-    "main.cdafb446.js.map": "/fire-optics-website/static/js/main.cdafb446.js.map",
+    "main.7fc4c70a.js.map": "/fire-optics-website/static/js/main.7fc4c70a.js.map",
     "reactPlayerYouTube.9b74a6b1.chunk.js.map": "/fire-optics-website/static/js/reactPlayerYouTube.9b74a6b1.chunk.js.map",
     "reactPlayerSoundCloud.3ce812f4.chunk.js.map": "/fire-optics-website/static/js/reactPlayerSoundCloud.3ce812f4.chunk.js.map",
     "reactPlayerVimeo.aebae2af.chunk.js.map": "/fire-optics-website/static/js/reactPlayerVimeo.aebae2af.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.94adf88d.css",
-    "static/js/main.cdafb446.js"
+    "static/js/main.7fc4c70a.js"
   ]
 }
